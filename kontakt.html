@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <a href="index.html">< Wróć to strony głównej</a>
+    
+    <h1>Kontakt</h1>
+
+    <h3>Tu można się ze mną skontaktować:</h3>
+
+    <form onsubmit="return false" id="form">
+        <label for="name">Imię:</label>
+        <input type="text" id="imię" name="imię" placeholder="Imię..." required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email..." required>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="wiadomość" name="wiadomość" placeholder="Wiadomość..." rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <footer>Ten formulaż nigdzie nic faktycznie nie wysyła.</footer>
+
+    <script src="kontakt.js"></script>
+</body>
+</html>
